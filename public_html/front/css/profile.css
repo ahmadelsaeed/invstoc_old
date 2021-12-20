@@ -1,0 +1,91 @@
+
+/**
+    Start Bakr Work
+ */
+
+
+/* start custom styles */
+
+.edit_dev{
+    display: none;
+}
+
+/* end custom styles */
+
+/* start cover img*/
+.cover_img_file{
+    width: 36px !important;
+    height: 34px !important;
+    opacity: 0;
+    position: relative;
+    overflow: hidden;
+    z-index: 20;
+    bottom: 17px;
+}
+
+.cover_img_label{
+    position: absolute;
+    bottom: 9px;
+    left: 2px;
+    cursor: pointer;
+}
+
+.cover_img_label i{
+    font-size: 34px;
+    color: #278d47;
+}
+
+.cover_img_div{
+    position: absolute;
+    top: 256px;
+    right: 35px;
+    font-size: 26px;
+    z-index:100000;
+}
+
+/*end cover img*/
+
+
+/*start profile img*/
+.profile_img_file{
+    width: 36px !important;
+    height: 34px !important;
+    opacity: 0;
+    position: relative;
+    overflow: hidden;
+    z-index: 20;
+    bottom: 17px;
+}
+
+.profile_img_label{
+    position: absolute;
+    bottom: 9px;
+    left: 2px;
+    cursor: pointer;
+}
+
+.profile_img_label i{
+    font-size: 34px;
+    color: #278d47;
+}
+
+.profile_img_div{
+    position: absolute;
+    top: 236px;
+    right: 277px;
+    font-size: 26px;
+}
+
+.hide_element{
+    display: none;
+}
+
+/*end profile img*/
+
+
+
+
+
+/**
+    END Bakr Work
+ */

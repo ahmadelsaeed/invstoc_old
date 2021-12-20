@@ -1,0 +1,193 @@
+@media only screen and (max-width: 768px) {
+
+body{
+    padding-right: 40px;
+}
+
+.container{
+	width: 95%;
+}
+
+#header {
+    min-height: 50px;
+    margin: 85px 0 0 0;
+}
+
+.menu{
+    height:auto;
+}
+
+.logo{
+    margin: 5px 0;
+}
+
+#page-contents{
+
+}
+
+    .post_header_category_ul {
+        padding: 0 0 0 0 !important;
+
+    }
+
+    .st-new-post-h {
+        position: relative;
+        left: 0;
+        max-width: 100%;
+        z-index: 10;
+    }
+
+    .post_header_category_ul li{
+        font-size: 10px;
+    }
+
+.col-right-st{
+display: none;
+}
+
+.menu-home{
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
+.menu-home p{
+    padding: 0 4px;
+    border-right: 0 !important;
+    font-size: 11px;
+    float: left;
+}
+
+    .menu form .form-group input.form-control{
+        margin: 5px 40px 0 0;
+        width: 85%;
+    }
+
+    .post-content .post-container {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .post_header_category_ul li{
+        margin:2px;
+    }
+
+.menu-home p i{
+	display: block;
+}
+
+.icon-main-header {
+    position: absolute;
+    top: -45px;
+    right: 50px;
+}
+
+.icon-main-header a{
+    text-align: center;
+    display: inline-table;
+    float: none;
+    margin: 0 5px;
+}
+
+
+.menu-left-fixed .st-menu-fied{
+	left: 0;
+}
+
+.dd {
+    left: 0 !important;
+}
+
+.timeline-cover .timeline-nav-bar .profile-info {
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    bottom: 0;
+    z-index: 999;
+    overflow: hidden;
+}
+
+
+.timeline-cover .timeline-nav-bar .profile-info img.profile-photo {
+    height: 75px;
+    width: 75px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 2px #929191;
+    float: right;
+}
+
+.timeline-cover .timeline-nav-bar .profile-info h3 {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 10px 10px 0 0;
+    color: #000;
+    font-weight: bold;
+    text-shadow: 0 0 0;
+    width: auto;
+    text-align: right;
+    right: 0;
+    float: right;
+}
+
+.timeline-cover .timeline-nav-bar ul.profile-menu{
+	overflow: hidden;
+    width: 100%;
+    background: #eee;
+    margin: 10px 0 0 0;
+}
+
+.timeline-cover .timeline-nav-bar .profile-menu li{
+	display: -webkit-inline-box;
+}
+
+.timeline-cover .timeline-nav-bar .profile-menu li a{
+    font-size: 11px;
+    padding: 15px 7px;
+}
+
+
+.timeline-cover .timeline-nav-bar .follow-me li {
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin: 9px 0 0 5px;
+    font-size: 10px;
+}
+
+.col-xs-offset-6{
+    margin-right: 0;
+}
+
+.body_intro{
+    padding-left: 0;
+}
+
+    .block-login{
+        float: none;
+    }
+
+    .btn-login{
+        right:10px;
+        z-index: 999999;
+    }
+
+    .col-md-4 ,.col-md-8{
+        width: 100%;
+    }
+
+    .bottom-bar{
+        position: relative;
+        bottom: 0;
+    }
+
+    .creat-account{
+        padding-bottom: 65px;
+    }
+
+.list-comment {
+    left: 0;
+}
+
+
+}	
+/******************* end screen ******************/
+

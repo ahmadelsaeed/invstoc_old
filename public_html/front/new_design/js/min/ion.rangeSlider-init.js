@@ -1,0 +1,1 @@
+CRUMINA.rangeSlider=function(){$(".range-slider-js").ionRangeSlider({type:"double",grid:!0,min:0,max:1e3,from:200,to:800,prefix:"$"})},$(document).ready(function(){CRUMINA.rangeSlider()});

@@ -1,0 +1,207 @@
+pre.sf-dump{
+    text-align: left;
+    direction: ltr;
+}
+
+.post_imgs{
+    width: 92px;
+    height: 35px;
+    opacity: 0;
+    position: absolute;
+    top: -5px;
+}
+
+.preview_post_img_div {
+    float: right;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 3px 0px 13px #888888;
+    margin: 10px 10px 10px 0px;
+}
+
+.preview_post_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.remove_img {
+    background: rgba(0,0,0,.7);
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0px;
+    border-radius: 5px;
+    display: none;
+}
+
+.preview_post_img_div:hover .remove_img {
+    display: block;
+}
+
+.remove_img_from_arr {
+    text-align: center;
+    /* line-height: 60px; */
+    margin-top: 46px;
+    display: block;
+    border: 1px solid;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-right: 51px;
+}
+
+.remove_img_from_arr .fa-times {
+    margin-top: 14px;
+    font-size: 18px;
+}
+
+.remove_img_from_arr:hover {
+    background-color: #FFF;
+}
+
+.youtube_inner_div{
+
+}
+
+.youtube_inner_div .img_link {
+    display: block;
+    height: 110px;
+    width: 110px;
+}
+
+.youtube_inner_div .youtube_link{
+    font-size: 16px;
+    font-weight: bold;
+    color: #6e6666;
+}
+
+.youtube_inner_div .youtube_desc {
+    height: 57px;
+    overflow: hidden;
+}
+
+.youtube_inner_div .youtube_desc_link {
+    color: #C8C8C8;
+}
+
+.youtube_inner_div a:hover{
+    text-decoration: none;
+}
+
+
+.recommendation_inputs{
+    display: none;
+}
+
+.post_text_form_group{
+    width: 100%;
+
+}
+
+.post_text{
+
+    resize: vertical;
+}
+
+.post_progress_bar{
+    height: 2px;
+    margin: 0px;
+    display: none;
+}
+
+.post-text{
+
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.post-content img.post-image{
+    height: auto;
+    max-width: 100%;
+}
+
+.delete_post .ajax_loader_class {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.create-post .form-group .form-control{
+    height: auto !important;
+}
+
+.reaction{
+    border-bottom: none;
+}
+
+.post-content .post-container .post-detail{
+    border-top: 1px solid #ddd;
+}
+
+.post_actions .fa{
+    margin-top: 4px;
+}
+
+.post_user{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.des-comment {
+    width: 100%;
+}
+
+.like_count{
+    margin-right: 5px;
+}
+
+.post-content .post-container .post-detail .post-comment{
+    position: relative;
+}
+
+.edit_comment_text{
+    resize: vertical;
+}
+
+.post-text p{
+    font-size: 14px;
+    word-wrap: break-word;
+}
+
+.liked_post{
+    font-weight: bolder;
+    color: #00b1ff;
+}
+
+.recommendation_post_div{
+    /*border: 2px solid #69ce78;*/
+    background: rgba(39, 141, 71, 0.18);
+}
+
+.create-post .form-group .insert-pic{
+    z-index: 1;
+}
+
+.post_recommendation_options select{
+    padding: 0px;
+}
+
+.post_recommendation_options input[type=number]{
+    padding: 11px;
+}
+
+.is_liked_post{
+    fill: #00aa50;
+}
+
+.post_div .badge-pill
+{
+    font-size: 13px;
+}
+
+.post_div .badge-primary
+{
+    background-color: #00aa50 ;
+}

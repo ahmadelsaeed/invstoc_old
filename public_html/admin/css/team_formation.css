@@ -1,0 +1,41 @@
+.team_formation_body{
+    text-align: center;
+}
+
+.hide_generated_image_panel{
+    display: none;
+}
+
+.generated_image_note{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.take_formation_img{
+    margin-left: 45%;
+}
+
+.drag_player_item:hover{
+    cursor: move;
+}
+
+.box-formation .box-fro label{
+    width: 100%;
+    font-weight: bold;
+    display: block;
+    color: #000;
+}
+
+.box-formation .box-fro span{
+    width: 50px;
+    height: 50px;
+    background: url(../../front/images/sports-Jersey.png) center no-repeat;
+    display: block;
+    color: #fff;
+    background-size: 50px 50px;
+    margin: auto;
+    line-height: 60px;
+    font-size: 14px;
+}
+

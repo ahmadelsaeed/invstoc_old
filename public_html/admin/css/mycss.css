@@ -1,0 +1,101 @@
+.main-body{
+    
+    min-height: 573px;
+}
+
+.slider_img .item{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.add_slider_img_btn{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.edit_slider_imgs{
+
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.edit_slider_imgs li{
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 20px;
+}
+
+.edit_slider_imgs li img{
+	width: 100%;
+    height: 230px;
+}
+
+.edit_slider_imgs li .slider_img_remover{
+	position: absolute;
+    bottom: 17px;
+    width: 100%;
+}
+
+.edit_slider_imgs li .slider_img_title{
+    position: absolute;
+    top: 57px;
+}
+
+.edit_slider_imgs li .slider_img_alt{
+    position: absolute;
+    top: 102px;
+}
+.save_slider_btn{
+	margin-top: 10px;
+}
+
+.selected_cities{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.selected_cities li{
+    float: left;
+}
+
+
+
+.selected_city_div{
+    padding: 7px;
+    background-color: #5bc0de;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.selected_city_div .remove_city{
+    padding-left: 5px; 
+}
+
+
+
+.selected_trips{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.selected_trips li{
+    float: left;
+}
+
+.selected_trip_div{
+    padding: 7px;
+    background-color: #5bc0de;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.selected_trip_div .remove_trip{
+    padding-left: 5px; 
+}
+
+li.divider:before {
+    height: 0 !important;
+    width: 0 !important;
+}
